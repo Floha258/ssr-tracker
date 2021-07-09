@@ -10,27 +10,25 @@
 .shadowtext { background-image: url(/images/shadow_text.png) }
 .spirittext { background-image: url(/images/spirit_text.png) }
 
+/* Dungeons */
+#skyview { background-image: url(/images/dungeon_sv.png) }
+#earthtemple { background-image: url(/images/dungeon_et.png) }
+#lmf { background-image: url(/images/dungeon_lmf.png) }
+#ancientcistern { background-image: url(/images/dungeon_ac.png) }
+#sandship { background-image: url(/images/dungeon_ssh.png) }
+#firesanctuary { background-image: url(/images/dungeon_fs.png) }
+
 /* Tracker Items */
 #kokiri_emerald, #kokiri_emerald_full { background-image: url(/images/kokiri_emerald.png) }
 #goron_ruby, #goron_ruby_full { background-image: url(/images/goron_ruby.png) }
 #zora_sapphire, #zora_sapphire_full { background-image: url(/images/zora_sapphire.png) }
-#forestmed { background-image: url(/images/forest_medallion.png) }
-#firemed { background-image: url(/images/fire_medallion.png) }
-#watermed { background-image: url(/images/water_medallion.png) }
-#shadowmed { background-image: url(/images/shadow_medallion.png) }
-#spiritmed { background-image: url(/images/spirit_medallion.png) }
-#lightmed { background-image: url(/images/light_medallion.png) }
-.atrade0 { background-image: url(/images/blue_egg.png) }
-.atrade1 { background-image: url(/images/blue_egg.png) }
-.atrade2 { background-image: url(/images/cojiro.png) }
-.atrade3 { background-image: url(/images/odd_mushroom.png) }
-.atrade4 { background-image: url(/images/odd_poultice.png) }
-.atrade5 { background-image: url(/images/poachers_saw.png) }
-.atrade6 { background-image: url(/images/broken_sword.png) }
-.atrade7 { background-image: url(/images/prescription.png) }
-.atrade8 { background-image: url(/images/eyeball_frog.png) }
-.atrade9 { background-image: url(/images/eye_drops.png) }
-.atrade10 { background-image: url(/images/claim_check.png) }
+.sword0 { background-image: url(/images/sword_practice.png) }
+.sword1 { background-image: url(/images/sword_practice.png) }
+.sword2 { background-image: url(/images/sword_goddess.png) }
+.sword3 { background-image: url(/images/sword_long.png) }
+.sword4 { background-image: url(/images/sword_white.png) }
+.sword5 { background-image: url(/images/sword_master.png) }
+.sword6 { background-image: url(/images/sword_true.png) }
 #gst { background-image: url(/images/golden_skulltula.png) }
 .nobottle { background-image: url(/images/bottle.png) }
 .bottle { background-image: url(/images/bottle.png) }

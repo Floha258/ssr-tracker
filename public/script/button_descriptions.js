@@ -89,71 +89,71 @@ var items = {
         "loop": true,
         "disable_zero": true,
     },
-    "forestmed": {
+    "skyview": {
         "type": "toggle",
         "size": "majoritem medallion",
     },
-    "forestmed_compact": {
+    "skyview_compact": {
         "type": "cycletoggle",
         "size": "block-element",
         "cycle_obj": "forest_med_text",
-        "toggle_obj": "forestmed",
+        "toggle_obj": "skyview",
     },
-    "firemed": {
+    "earthtemple": {
         "type": "toggle",
         "size": "majoritem medallion",
     },
-    "firemed_compact": {
+    "earthtemple_compact": {
         "type": "cycletoggle",
         "size": "block-element",
         "cycle_obj": "fire_med_text",
-        "toggle_obj": "firemed",
+        "toggle_obj": "earthtemple",
     },
-    "watermed": {
+    "lmf": {
         "type": "toggle",
         "size": "majoritem medallion",
     },
-    "watermed_compact": {
+    "lmf_compact": {
         "type": "cycletoggle",
         "size": "block-element",
         "cycle_obj": "water_med_text",
-        "toggle_obj": "watermed",
+        "toggle_obj": "lmf",
     },
-    "shadowmed": {
+    "ancientcistern": {
         "type": "toggle",
         "size": "majoritem medallion",
     },
-    "shadowmed_compact": {
+    "ancientcistern_compact": {
         "type": "cycletoggle",
         "size": "block-element",
         "cycle_obj": "shadow_med_text",
-        "toggle_obj": "shadowmed",
+        "toggle_obj": "ancientcistern",
     },
-    "spiritmed": {
+    "sandship": {
         "type": "toggle",
         "size": "majoritem medallion",
     },
-    "spiritmed_compact": {
+    "sandship_compact": {
         "type": "cycletoggle",
         "size": "block-element",
         "cycle_obj": "spirit_med_text",
-        "toggle_obj": "spiritmed",
+        "toggle_obj": "sandship",
     },
-    "lightmed": {
+    "firesanctuary": {
         "type": "toggle",
         "size": "majoritem medallion",
     },
-    "lightmed_compact": {
+    "firesanctuary_compact": {
         "type": "cycletoggle",
         "size": "block-element",
         "cycle_obj": "light_med_text",
-        "toggle_obj": "lightmed",
+        "toggle_obj": "firesanctuary",
     },
-    "atrade_full": {
+    "sword": {
         "type": "cycle",
         "size": "majoritem",
-        "opts": ["atrade0", "atrade1", "atrade2", "atrade3", "atrade4", "atrade5", "atrade6", "atrade7", "atrade8", "atrade9", "atrade10"],
-        "loop": false,
+        "opts": ["sword0", "sword1", "sword2", "sword3", "sword4", "sword5", "sword6"],
+        "loop": true,
         "disable_zero": true,
     },
     "gst": {
