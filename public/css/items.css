@@ -19,7 +19,9 @@
 #firesanctuary { background-image: url(/images/dungeon_fs.png) }
 
 /* Tracker Items */
-#kokiri_emerald, #kokiri_emerald_full { background-image: url(/images/kokiri_emerald.png) }
+.mitts0 { background-image: url(/images/mitts_digging.png) }
+.mitts1 { background-image: url(/images/mitts_digging.png) }
+.mitts2 { background-image: url(/images/mitts_mmogma.png) }
 #goron_ruby, #goron_ruby_full { background-image: url(/images/goron_ruby.png) }
 #zora_sapphire, #zora_sapphire_full { background-image: url(/images/zora_sapphire.png) }
 .sword0 { background-image: url(/images/sword_practice.png) }
@@ -29,31 +31,22 @@
 .sword4 { background-image: url(/images/sword_white.png) }
 .sword5 { background-image: url(/images/sword_master.png) }
 .sword6 { background-image: url(/images/sword_true.png) }
-#gst { background-image: url(/images/golden_skulltula.png) }
-.nobottle { background-image: url(/images/bottle.png) }
-.bottle { background-image: url(/images/bottle.png) }
-.bottleletter { background-image: url(/images/bottle_letter.png) }
-.scale0 { background-image: url(/images/silver_scale.png) }
-.scale1 { background-image: url(/images/silver_scale.png) }
-.scale2 { background-image: url(/images/gold_scale.png) }
+#crystals { background-image: url(/images/crystal.png) }
+#bottles { background-image: url(/images/bottle.png) }
+#scale { background-image: url(/images/scale.png) }
+#earrings { background-image: url(/images/earrings.png) }
+#bugnet { background-image: url(/images/bugnet.png) }
 #slingshot { background-image: url(/images/slingshot.png) }
-.bombbag { background-image: url(/images/bomb_bag.png) }
-#boomerang { background-image: url(/images/boomerang.png) }
-.str0 { background-image: url(/images/goron_bracelet.png) }
-.str1 { background-image: url(/images/goron_bracelet.png) }
-.str2 { background-image: url(/images/silver_gauntlets.png) }
-.str3 { background-image: url(/images/gold_gauntlets.png) }
-.lens { background-image: url(/images/lens.png) }
-.lensbadge { background-image: url(/images/lens_badge.png) }
-.magic { background-image: url(/images/magic.png) }
-.nospells { background-image: url(/images/composite_magic.png) }
-.dins { background-image: url(/images/dins_fire.png) }
-.farores { background-image: url(/images/faores_wind.png) }
-.dinsfarores { background-image: url(/images/composite_magic.png) }
-.nohook { background-image: url(/images/hookshot.png) }
-.hookshot { background-image: url(/images/hookshot_accessible.png) }
-.longshot { background-image: url(/images/longshot_accessible.png) }
+.nobeetle { background-image: url(/images/beetle.png) }
+.beetle { background-image: url(/images/beetle.png) }
+.hookbeetle { background-image: url(/images/beetle.png) }
+#bombs { background-image: url(/images/bombs.png) }
+#bellows { background-image: url(/images/bellows.png) }
+#whip { background-image: url(/images/whip.png) }
+#clawshots { background-image: url(/images/clawshots.png) }
 #bow { background-image: url(/images/bow.png) }
+#seachart { background-image: url(/images/sea_chart.png) }
+#spiralcharge { background-image: url(/images/spiral_charge.png) }
 .nomagicarrows { background-image: url(/images/composite_arrows.png) }
 .firearrows { background-image: url(/images/fire_arrows.png) }
 .lightarrows { background-image: url(/images/light_arrows.png) }

@@ -17,8 +17,8 @@ window.onload = function() {
             elemlist[i].addEventListener("contextmenu", function(e) { badge(e, this, "right"); });
         }
         if(cllist.contains("counter")) {
-            elemlist[i].addEventListener("click", function(e) { count(e, this, "up", (e.shiftKey) ? 10 : 1); });
-            elemlist[i].addEventListener("contextmenu", function(e) { count(e, this, "down", (e.shiftKey) ? 10 : 1); });
+            elemlist[i].addEventListener("click", function(e) { count(e, this, "up", (e.shiftKey) ? 5 : 1); });
+            elemlist[i].addEventListener("contextmenu", function(e) { count(e, this, "down", (e.shiftKey) ? 5 : 1); });
         }
         if(cllist.contains("split")) {
             elemlist[i].addEventListener("click", function(e) { split(e, this, "left"); });
@@ -222,20 +222,24 @@ function build_cycletoggle(itemid) {
 }
 
 function build_item(itemid) {
-    if(items[itemid]["type"] === "cycle")
-        return build_cycle(itemid, "");
-    else if(items[itemid]["type"] === "toggle")
-        return build_toggle(itemid, "");
-    else if(items[itemid]["type"] === "counter")
-        return build_counter(itemid);
-    else if(items[itemid]["type"] === "badge")
-        return build_badge(itemid);
-    else if(items[itemid]["type"] === "split")
-        return build_split(itemid);
-    else if(items[itemid]["type"] === "cycletoggle")
-        return build_cycletoggle(itemid);
-    else
+    try {
+        if (items[itemid]["type"] === "cycle")
+            return build_cycle(itemid, "");
+        else if (items[itemid]["type"] === "toggle")
+            return build_toggle(itemid, "");
+        else if (items[itemid]["type"] === "counter")
+            return build_counter(itemid);
+        else if (items[itemid]["type"] === "badge")
+            return build_badge(itemid);
+        else if (items[itemid]["type"] === "split")
+            return build_split(itemid);
+        else if (items[itemid]["type"] === "cycletoggle")
+            return build_cycletoggle(itemid);
+        else
+            console.log("Couldn't build itemid: ", itemid);
+    } catch (e) {
         console.log("Couldn't build itemid: ", itemid);
+    }
 }
 
 // Build entire tracker from scratch

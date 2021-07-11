@@ -156,31 +156,18 @@ var items = {
         "loop": true,
         "disable_zero": true,
     },
-    "gst": {
+    "crystals": {
         "type": "counter",
         "size": "majoritem",
         "minimum": 0,
-        "maximum": 100,
+        "maximum": 80,
     },
-    "kokiri_emerald": {
-        "type": "toggle",
-        "size": "stones",
-    },
-    "kokiri_emerald_full": {
-        "type": "toggle",
+    "mitts": {
+        "type": "cycle",
         "size": "majoritem",
-    },
-    "kokiri_emerald_compact": {
-        "type": "cycletoggle",
-        "size": "block-element",
-        "cycle_obj": "kokiri_emerald_text",
-        "toggle_obj": "kokiri_emerald",
-    },
-    "kokiri_emerald_compact_full": {
-        "type": "cycletoggle",
-        "size": "block-element",
-        "cycle_obj": "kokiri_emerald_text_full",
-        "toggle_obj": "kokiri_emerald_full",
+        "opts": ["mitts0", "mitts1", "mitts2"],
+        "loop": true,
+        "disable_zero": true,
     },
     "goron_ruby": {
         "type": "toggle",
@@ -222,68 +209,60 @@ var items = {
         "cycle_obj": "zora_sapphire_text_full",
         "toggle_obj": "zora_sapphire_full",
     },
-    "bottle_letter": {
-        "type": "badge",
+    "bottles": {
+        "type": "counter",
         "size": "majoritem",
-        "opts": ["bottle", "ruto"],
+        "minimum": 0,
+        "maximum": 5,
     },
     "scale": {
-        "type": "cycle",
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["scale0", "scale1", "scale2"],
-        "loop": false,
-        "disable_zero": true,
+    },
+    "earrings": {
+        "type": "toggle",
+        "size": "majoritem",
+    },
+    "bugnet": {
+        "type": "toggle",
+        "size": "majoritem",
     },
     "slingshot": {
         "type": "toggle",
         "size": "majoritem",
     },
-    "explosives": {
-        "type": "badge",
+    "beetle": {
+        "type": "cycle",
         "size": "majoritem",
-        "opts": ["bombbag", "chubadge"],
+        "opts": ["nobeetle", "beetle", "hookbeetle"],
+        "loop": true,
+        "disable_zero": true,
     },
-    "boomerang": {
+    "bombs": {
         "type": "toggle",
         "size": "majoritem",
     },
-    "strength": {
-        "type": "cycle",
+    "bellows": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["str0", "str1", "str2", "str3"],
-        "loop": false,
-        "disable_zero": true,
     },
-    "magic_lens": {
-        "type": "badge",
+    "whip": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["magic", "lensbadge"],
     },
-    "spells": {
-        "type": "split",
+    "clawshots": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["nospells", "dins", "farores", "dinsfarores"],
-        "disable_zero": true,
-        "loop": false,
-    },
-    "hooks": {
-        "type": "cycle",
-        "size": "majoritem",
-        "opts": ["nohook", "hookshot", "longshot"],
-        "loop": false,
-        "disable_zero": true,
     },
     "bow": {
         "type": "toggle",
         "size": "majoritem",
     },
-    "magicarrows": {
-        "type": "split",
+    "seachart": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["nomagicarrows", "firearrows", "lightarrows", "magicarrows"],
-        "disable_zero": true,
     },
-    "hammer": {
+    "spiralcharge": {
         "type": "toggle",
         "size": "majoritem",
     },
@@ -557,3 +536,20 @@ var items = {
         "maximum": 9,
     },
 }
+
+/* templates
+Badge Template:
+"magic_lens": {
+        "type": "badge",
+        "size": "majoritem",
+        "opts": ["magic", "lensbadge"],
+},
+Split Template:
+"spells": {
+        "type": "split",
+        "size": "majoritem",
+        "opts": ["nospells", "dins", "farores", "dinsfarores"],
+        "disable_zero": true,
+        "loop": false,
+    },
+ */
