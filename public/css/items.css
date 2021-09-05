@@ -52,30 +52,17 @@
 .lightarrows { background-image: url(/images/light_arrows.png) }
 .magicarrows { background-image: url(/images/composite_arrows.png) }
 #hammer { background-image: url(/images/hammer.png) }
-.noboots { background-image: url(/images/composite_boots.png) }
-.ironboots { background-image: url(/images/iron_boots.png) }
-.hoverboots { background-image: url(/images/hover_boots.png) }
-.boots { background-image: url(/images/composite_boots.png) }
-#mirrorshield { background-image: url(/images/mirror_shield.png) }
-.ctrade0 { background-image: url(/images/white_egg.png) }
-.ctrade1 { background-image: url(/images/white_egg.png) }
-.ctrade2 { background-image: url(/images/zelda_letter.png) }
-.ctrade3 { background-image: url(/images/keaton_mask.png) }
-.ctrade4 { background-image: url(/images/skull_mask.png) }
-.ctrade5 { background-image: url(/images/spooky_mask.png) }
-.ctrade6 { background-image: url(/images/bunny_hood.png) }
-.ctrade7 { background-image: url(/images/mask_of_truth.png) }
-#ocarina { background-image: url(/images/ocarina.png) }
-#beans { background-image: url(/images/beans.png) }
-.noswordcard { background-image: url(/images/composite_ksword_gcard.png) }
-.koksword, #kokirisword { background-image: url(/images/kokiri_sword.png) }
-.gerudocard { background-image: url(/images/gerudo_card.png) }
-.swordcard { background-image: url(/images/composite_ksword_gcard.png) }
-.notunics { background-image: url(/images/composite_tunics.png) }
-.gorontunic { background-image: url(/images/goron_tunic.png) }
-.zoratunic { background-image: url(/images/zora_tunic.png) }
-.tunics { background-image: url(/images/composite_tunics.png) }
-#triforce { background-image: url(/images/triforce.png) }
+#pouch { background-image: url(/images/pouch.png) }
+#caveskey { background-image: url(/images/cavekey.png) }
+#letter { background-image: url(/images/letter.png) }
+#rattle { background-image: url(/images/rattle.png) }
+#cage { background-image: url(/images/cage.png) }
+#sot { background-image: url(/images/stone_of_trials.png) }
+.wallet1 { background-image: url(/images/wallet1.png) }
+.wallet2 { background-image: url(/images/wallet2.png) }
+.wallet3 { background-image: url(/images/wallet3.png) }
+.wallet4 { background-image: url(/images/wallet4.png) }
+.wallet5 { background-image: url(/images/wallet5.png) }
 
 /* Song Tracking */
 .zl { background-image: url(/images/lullaby.png) }

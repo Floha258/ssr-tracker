@@ -266,46 +266,37 @@ var items = {
         "type": "toggle",
         "size": "majoritem",
     },
-    "boots": {
-        "type": "split",
+    "pouch": {
+        "type": "counter",
         "size": "majoritem",
-        "opts": ["noboots", "ironboots", "hoverboots", "boots"],
-        "disable_zero": true,
+        "minimum": 0,
+        "maximum": 8,
     },
-    "mirrorshield": {
+    "caveskey": {
         "type": "toggle",
         "size": "majoritem",
     },
-    "ctrade_full": {
-        "type": "cycle",
-        "size": "majoritem",
-        "opts": ["ctrade0", "ctrade1", "ctrade2", "ctrade3", "ctrade4", "ctrade5", "ctrade6", "ctrade7"],
-        "loop": false,
-        "disable_zero": true,
-    },
-    "ocarina": {
+    "letter": {
         "type": "toggle",
         "size": "majoritem",
     },
-    "beans": {
+    "rattle": {
         "type": "toggle",
         "size": "majoritem",
     },
-    "kokirisword": {
+    "cage": {
+        "type": "toggle",
+        "size": "majoritem",
+    },
+    "sot": {
         "type": "toggle",
         "size": "majoritem"
     },
-    "dungeonopeners": {
-        "type": "split",
+    "wallet": {
+        "type": "cycle",
         "size": "majoritem",
-        "opts": ["noswordcard", "koksword", "gerudocard", "swordcard"],
-        "disable_zero": true,
-    },
-    "tunics": {
-        "type": "split",
-        "size": "majoritem",
-        "opts": ["notunics", "gorontunic", "zoratunic", "tunics"],
-        "disable_zero": true,
+        "opts": ["wallet1", "wallet2", "wallet3", "wallet4", "wallet5"],
+        "disable_zero": false,
     },
     "triforce": {
         "type": "counter",
