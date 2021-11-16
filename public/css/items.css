@@ -116,17 +116,17 @@
 
 /* Dungeon Keys */
 #svsk { background-image: url(/images/smallkey.png) }
-#svbk { background-image: url(/images/bosskey.png) }
-#etsk { background-image: url(/images/smallkey.png) }
-#etbk { background-image: url(/images/bosskey.png) }
+#svbk { background-image: url(/images/sv_bk.png) }
+#etsk { background-image: url(/images/et_sk.png) }
+#etbk { background-image: url(/images/et_bk.png) }
 #lmfsk { background-image: url(/images/smallkey.png) }
-#lmfbk { background-image: url(/images/bosskey.png) }
+#lmfbk { background-image: url(/images/lmf_bk.png) }
 #acsk { background-image: url(/images/smallkey.png) }
-#acbk { background-image: url(/images/bosskey.png) }
+#acbk { background-image: url(/images/ac_bk.png) }
 #sshsk { background-image: url(/images/smallkey.png) }
-#sshbk { background-image: url(/images/bosskey.png) }
+#sshbk { background-image: url(/images/ssh_bk.png) }
 #fssk { background-image: url(/images/smallkey.png) }
-#fsbk { background-image: url(/images/bosskey.png) }
+#fsbk { background-image: url(/images/fs_bk.png) }
 #wellsk { background-image: url(/images/smallkey.png) }
 #fortsk { background-image: url(/images/smallkey.png) }
 #gtgsk { background-image: url(/images/smallkey.png) }
