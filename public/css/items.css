@@ -21,7 +21,7 @@
 /* Tracker Items */
 .mitts0 { background-image: url(/images/mitts_digging.png) }
 .mitts1 { background-image: url(/images/mitts_digging.png) }
-.mitts2 { background-image: url(/images/mitts_mmogma.png) }
+.mitts2 { background-image: url(/images/mitts_mogma.png) }
 #goron_ruby, #goron_ruby_full { background-image: url(/images/goron_ruby.png) }
 #zora_sapphire, #zora_sapphire_full { background-image: url(/images/zora_sapphire.png) }
 .sword0 { background-image: url(/images/sword_practice.png) }
@@ -39,7 +39,7 @@
 #slingshot { background-image: url(/images/slingshot.png) }
 .nobeetle { background-image: url(/images/beetle.png) }
 .beetle { background-image: url(/images/beetle.png) }
-.hookbeetle { background-image: url(/images/beetle.png) }
+.hookbeetle { background-image: url(/images/beetle_hook.png) }
 #bombs { background-image: url(/images/bombs.png) }
 #bellows { background-image: url(/images/bellows.png) }
 #whip { background-image: url(/images/whip.png) }
@@ -65,12 +65,15 @@
 .wallet5 { background-image: url(/images/wallet5.png) }
 
 /* Song Tracking */
-.zl { background-image: url(/images/lullaby.png) }
-.epona { background-image: url(/images/epona.png) }
-.saria { background-image: url(/images/saria.png) }
-.sunsong { background-image: url(/images/sun.png) }
-.songoftime { background-image: url(/images/time.png) }
-.storms { background-image: url(/images/storms.png) }
+#fcsong { background-image: url(/images/harpfc.png) }
+#nwsong { background-image: url(/images/harpnw.png) }
+#dpsong { background-image: url(/images/harpdp.png) }
+.soth0 { background-image: url(/images/harpsoth0.png) }
+.soth1 { background-image: url(/images/harpsoth1.png) }
+.soth2 { background-image: url(/images/harpsoth2.png) }
+.soth3 { background-image: url(/images/harpsoth3.png) }
+#botgsong { background-image: url(/images/harpbotg.png) }
+#harp { background-image: url(/images/harp.png) }
 .minuet { background-image: url(/images/minuet.png) }
 .bolero { background-image: url(/images/bolero.png) }
 .serenade { background-image: url(/images/serenade.png) }

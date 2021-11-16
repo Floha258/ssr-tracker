@@ -304,35 +304,31 @@ var items = {
         "minimum": 0,
         "maximum": 999,
     },
-    "zlsong": {
-        "type": "badge",
+    "fcsong": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["zl", "checkmark"]
     },
-    "sariasong": {
-        "type": "badge",
+    "nwsong": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["saria", "checkmark"]
     },
-    "eponasong": {
-        "type": "badge",
+    "dpsong": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["epona", "checkmark"]
     },
-    "sunsong": {
-        "type": "badge",
+    "sothsong": {
+        "type": "cycle",
+        "opts": ["soth0", "soth1", "soth2", "soth3"],
         "size": "majoritem",
-        "opts": ["sunsong", "checkmark"]
+        "disable_zero": true,
     },
-    "timesong": {
-        "type": "badge",
+    "botgsong": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["songoftime", "checkmark"]
     },
-    "stormssong": {
-        "type": "badge",
+    "harp": {
+        "type": "toggle",
         "size": "majoritem",
-        "opts": ["storms", "checkmark"]
     },
     "minuetsong": {
         "type": "badge",
