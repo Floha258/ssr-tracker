@@ -395,13 +395,13 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "forestsk": {
+    "svsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 6,
+        "maximum": 2,
     },
-    "forestbk": {
+    "svbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -419,13 +419,13 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "shadowsk": {
+    "acsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 6,
+        "maximum": 2,
     },
-    "shadowbk": {
+    "acbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -456,13 +456,13 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "firesk": {
+    "etsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 8,
+        "maximum": 5,
     },
-    "firebk": {
+    "etbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -480,13 +480,13 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "spiritsk": {
+    "sshsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 7,
+        "maximum": 2,
     },
-    "spiritbk": {
+    "sshbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -517,13 +517,13 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "watersk": {
+    "lmfsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 6,
+        "maximum": 1,
     },
-    "waterbk": {
+    "lmfbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -541,13 +541,13 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "ganonsk": {
+    "fssk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
         "maximum": 3,
     },
-    "ganonbk": {
+    "fsbk": {
         "type": "toggle",
         "size": "keys",
     },
