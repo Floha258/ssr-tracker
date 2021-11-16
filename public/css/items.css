@@ -107,6 +107,13 @@
 .gtgn { background-image: url(/images/gtg_normal.png) }
 .gtgmq { background-image: url(/images/gtg_mq.png) }
 
+.svname { background-image: url(/images/svname.png); }
+.etname { background-image: url(/images/etname.png); }
+.lmfname { background-image: url(/images/lmfname.png); }
+.acname { background-image: url(/images/acname.png); }
+.sshname { background-image: url(/images/sshname.png); }
+.fsname { background-image: url(/images/fsname.png); }
+
 /* Dungeon Keys */
 #forestsk { background-image: url(/images/smallkey.png) }
 #forestbk { background-image: url(/images/bosskey.png) }
