@@ -388,13 +388,20 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "forestsk": {
+    "svname": {
+        "type": "cycle",
+        "size": "dungname-col1",
+        "opts": ["svname"],
+        "loop": false,
+        "disable_zero": false,
+    },
+    "svsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 6,
+        "maximum": 2,
     },
-    "forestbk": {
+    "svbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -405,13 +412,20 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "shadowsk": {
+    "acname": {
+        "type": "cycle",
+        "size": "dungname-col1",
+        "opts": ["acname"],
+        "loop": false,
+        "disable_zero": false,
+    },
+    "acsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 6,
+        "maximum": 2,
     },
-    "shadowbk": {
+    "acbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -435,13 +449,20 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "firesk": {
+    "etname": {
+        "type": "cycle",
+        "size": "dungname-col1",
+        "opts": ["etname"],
+        "loop": false,
+        "disable_zero": false,
+    },
+    "etsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 8,
+        "maximum": 5,
     },
-    "firebk": {
+    "etbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -452,13 +473,20 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "spiritsk": {
+    "sshname": {
+        "type": "cycle",
+        "size": "dungname-col1",
+        "opts": ["sshname"],
+        "loop": false,
+        "disable_zero": false,
+    },
+    "sshsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 7,
+        "maximum": 2,
     },
-    "spiritbk": {
+    "sshbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -482,13 +510,20 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "watersk": {
+    "lmfname": {
+        "type": "cycle",
+        "size": "dungname-col1",
+        "opts": ["lmfname"],
+        "loop": false,
+        "disable_zero": false,
+    },
+    "lmfsk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
-        "maximum": 6,
+        "maximum": 1,
     },
-    "waterbk": {
+    "lmfbk": {
         "type": "toggle",
         "size": "keys",
     },
@@ -499,13 +534,20 @@ var items = {
         "loop": false,
         "disable_zero": false,
     },
-    "ganonsk": {
+    "fsname": {
+        "type": "cycle",
+        "size": "dungname-col1",
+        "opts": ["fsname"],
+        "loop": false,
+        "disable_zero": false,
+    },
+    "fssk": {
         "type": "counter",
         "size": "keys",
         "minimum": 0,
         "maximum": 3,
     },
-    "ganonbk": {
+    "fsbk": {
         "type": "toggle",
         "size": "keys",
     },
