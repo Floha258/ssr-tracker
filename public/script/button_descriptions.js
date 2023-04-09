@@ -301,7 +301,7 @@ var items = {
     "triforce": {
         "type": "cycle",
         "size": "majoritem",
-        "opts": ["triforce0", "triforce1", "trifroce2", "triforce3"],
+        "opts": ["triforce0", "triforce1", "triforce2", "triforce3"],
         "disable_zero": true,
     },
     "fcsong": {
