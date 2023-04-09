@@ -299,10 +299,10 @@ var items = {
         "disable_zero": false,
     },
     "triforce": {
-        "type": "counter",
+        "type": "cycle",
         "size": "majoritem",
-        "minimum": 0,
-        "maximum": 999,
+        "opts": ["triforce0", "triforce1", "trifroce2", "triforce3"],
+        "disable_zero": true,
     },
     "fcsong": {
         "type": "toggle",
